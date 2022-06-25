@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Editer une chambre{% endblock %}
+
+{% block body %}
+    <h2>Editer la chambre</h2>
+
+    {{ include('chambres/_form.html.twig', {'button_label': 'Enregistrer'}) }}
+
+    {{ include('chambres/_delete_form.html.twig') }}
+
+    <a class="btn m-3" href="{{ path('app_chambres_index') }}" title="Retour à la liste des chambres">
+       {% include 'boutons/return.html.twig' %}
+    </a>
+{% endblock %}
