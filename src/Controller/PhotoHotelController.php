@@ -14,8 +14,6 @@ use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Cloudinary\Api\Upload\UploadApi;
-use Cloudinary\Configuration\Configuration;
 
 #[Security("is_granted('ROLE_GERANT')", statusCode: 404)]
 #[Route('/photo-hotel/{hotel}')]
@@ -68,7 +66,7 @@ class PhotoHotelController extends AbstractController
                     $photo->setLien($newFilename.$newFileExt);
                     $photoRepository->add($photo);
                     $filesystem = new Filesystem();
-                     $filesystem->remove($destination.'/'.$newFilename.$newFileExt);
+                    $filesystem->remove($destination.'/'.$newFilename.$newFileExt);
                 }
             }
             return $this->redirectToRoute('app_photo_index', [
