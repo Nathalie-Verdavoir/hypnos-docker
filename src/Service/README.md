@@ -1,7 +1,5 @@
 # Cloudinary upload/destroy via API
 
-![Le logo](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos-docker/master/public/images/logoGithub.png)
-
 ## 1-Prepare
 
 ### Create an account
