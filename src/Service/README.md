@@ -1,6 +1,6 @@
 # Cloudinary upload/destroy via API
 
-![Le logo](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos/master/public/images/logoGithub.png)
+![Le logo](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos-docker/master/public/images/logoGithub.png)
 
 ## 1-Prepare
 
@@ -19,7 +19,7 @@ More infos **<https://cloudinary.com/documentation/php_integration/>**
 
 ### Add vars in .env with your cloudinary account infos from dashboard
 
-![Dashboard](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos/master/src/Service/CloudinaryDashboard.PNG)
+![Dashboard](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos-docker/master/src/Service/CloudinaryDashboard.PNG)
 
 ```php
 CLOUDINARY_URL=cloudinary://yourApiKey:yourApiSecret@yourCloudName

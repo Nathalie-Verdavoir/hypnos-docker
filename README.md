@@ -1,6 +1,6 @@
 # Hypnos-Docker
 
-![Le logo](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos/master/public/images/logoGithub.png)
+![Le logo](https://raw.githubusercontent.com/Nathalie-Verdavoir/hypnos-docker/master/public/images/logoGithub.png)
 
 ## 1-Un projet symfony
 
@@ -57,23 +57,23 @@ Dans l'onglet Resources vous ajouterez l'Add-on de base de données. J'ai choisi
 
 ## 2-Documents complémentaires joints au projet
 
-+ [1-hypnos-bdd.sql](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/1-hypnos-bdd.sql)
++ [1-hypnos-bdd.sql](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/1-hypnos-bdd.sql)
 
-+ [2-wireframes.pdf](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/2-wireframes.pdf)
++ [2-wireframes.pdf](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/2-wireframes.pdf)
 
-+ [3-CHARTE.png](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/3-CHARTE.png)
++ [3-CHARTE.png](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/3-CHARTE.png)
 
-+ [4-Diagramme de cas d'utlisation.PNG](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/4-Diagramme%20de%20cas%20d'utlisation.PNG)
++ [4-Diagramme de cas d'utlisation.PNG](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/4-Diagramme%20de%20cas%20d'utlisation.PNG)
 
-+ [5-DS1 RESERVER UNE CHAMBRE.png](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/5-DS1%20RESERVER%20UNE%20CHAMBRE.png)
++ [5-DS1 RESERVER UNE CHAMBRE.png](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/5-DS1%20RESERVER%20UNE%20CHAMBRE.png)
 
-+ [6-DS2 VOIR LES RESERVATIONS.png](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/6-DS2%20VOIR%20LES%20RESERVATIONS.png)
++ [6-DS2 VOIR LES RESERVATIONS.png](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/6-DS2%20VOIR%20LES%20RESERVATIONS.png)
 
-+ [7-hypnos_schema_bdd.png](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/7-hypnos_schema_bdd.png)
++ [7-hypnos_schema_bdd.png](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/7-hypnos_schema_bdd.png)
   
-+ [8-DOCUMENTATION-TECHNIQUE.pdf](https://github.com/Nathalie-Verdavoir/hypnos/blob/documents/documents-complementaires/8-DOCUMENTATION-TECHNIQUE.pdf)
++ [8-DOCUMENTATION-TECHNIQUE.pdf](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/documents/documents-complementaires/8-DOCUMENTATION-TECHNIQUE.pdf)
 
-+ [9-Manuel-d-utilisation.pdf](https://github.com/Nathalie-Verdavoir/hypnos/blob/master/documents-complementaires/9-Manuel-d-utilisation.pdf)
++ [9-Manuel-d-utilisation.pdf](https://github.com/Nathalie-Verdavoir/hypnos-docker/blob/master/documents-complementaires/9-Manuel-d-utilisation.pdf)
 
 + [10-Manuel-d-utilisation.html (avec animations)](https://slides.com/natpinkelephant/ellipse)
   
