@@ -64,6 +64,7 @@ class PhotoChambreController extends AbstractController
                     $photo->setCover(false);
                     $photo->setLien($newFilename.$newFileExt);
                     $photoRepository->add($photo);
+                    $this->addFlash('success', 'Votre image a été enregistrée');
                     $filesystem = new Filesystem();
                     $filesystem->remove($destination.'/'.$newFilename.$newFileExt);
                 }
@@ -121,11 +122,12 @@ class PhotoChambreController extends AbstractController
             throw $this->createAccessDeniedException();
         }
         if ($this->isCsrfTokenValid('delete'.$photo->getId(), $request->request->get('_token'))) {
-            $folder = $this->getParameter('kernel.project_dir').'/public/uploads/photos/';
-            $path = $folder . $photo->getLien();
-            $filesystem = new Filesystem();
-            $filesystem->remove($path);
-            $photoRepository->remove($photo);
+            $path = $photo->getLien();
+            $result = (new ImageUploader())->remove(substr($path, 0,  strrpos($path, ".")) );
+            if($result['result']=='ok'){
+                $this->addFlash('success', 'Votre image a été supprimée'.' ('.substr($path, 0,  strrpos($path, ".")).')');
+                $photoRepository->remove($photo);
+            }
         }
 
         return $this->redirectToRoute('app_photo_chambre_index', [
