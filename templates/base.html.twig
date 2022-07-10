@@ -45,7 +45,7 @@
         {% include 'header.html.twig' %}
         <main>
          {% for message in app.flashes('success') %}
-            <span id="alert" class="alert alert-success">
+            <span id="alert" class="alert alert-success d-inline">
                 {{ message }}
             </span>
         {% endfor %}

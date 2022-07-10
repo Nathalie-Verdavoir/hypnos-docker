@@ -317,12 +317,14 @@ div > ul > li {
     border-color: var(--color-green-2);
     top: 5vh;
     left: 5vh;
+    z-index: 100;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 .alert {
-  position: relative;
-  padding: 1rem 1rem;
+  position: fixed;
+  margin: 0;
 }
 
 footer {
